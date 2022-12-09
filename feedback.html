@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" href="feedback/feedback_style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+	<link type="text/css" href="galery1/body.css" rel="stylesheet">
+	<link rel="shortcut icon" href="pictures/meditation.png" type="image/x-icon" />
+	<title>Оставьте отзыв</title>
+</head>
+
+<body>
+	<div class="upper__wrapper">
+		<a href="main.html">←</a>
+	</div>
+	<form class="feedback__wrapper">
+		<div class="input__email">
+			<label for="i__email">Электронная почта</label>
+			<input required type="email" pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'
+				placeholder="Введите почту..." id="i__email">
+		</div>
+		<div class="input__name">
+			<label for="i__username">Ваше имя</label>
+			<input type="text" required placeholder="Введите имя..." id="i__username" maxlength="25">
+		</div>
+		<div class="input__feedback">
+			<label for="i__feedback">Ваш отзыв</label>
+			<textarea name="Text1" required maxlength="190" cols="40" rows="5"
+				placeholder="Введите отзыв..."></textarea>
+		</div>
+		<div class="btn">
+			<button type="submit">
+				Отправить
+			</button>
+		</div>
+	</form>
+</body>
+
+</html>

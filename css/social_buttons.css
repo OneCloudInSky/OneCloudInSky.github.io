@@ -1,0 +1,93 @@
+.vk {
+	font-size: 30px;
+}
+
+.instagram {
+	font-size: 30px;
+}
+
+.youtube {
+	font-size: 30px;
+}
+
+.telegram {
+	font-size: 30px;
+}
+
+.facebook {
+	font-size: 30px;
+}
+
+.icons_5 {
+	display: flex;
+	width: 100%;
+}
+
+div.icons_5 {
+	height: 90px;
+}
+
+.icons_param {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 45px;
+	height: 45px;
+	margin: 15px;
+	background-color: rgb(132, 127, 127);
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px #00000080;
+	transition: all 0.5 ease;
+	position: relative;
+	overflow: hidden;
+}
+
+.icons_param {
+	transition: all 0.5s ease;
+	z-index: 1;
+}
+
+.icons_param:after {
+	content: "";
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	transform: translate(0, -72px);
+	border-radius: 50%;
+	transition: all 0.5s ease;
+}
+
+
+.icons_param.vk:after {
+	background-color: #0717f9;
+}
+
+.icons_param.instagram:after {
+	background: linear-gradient(45deg, #e6fb28, #f321c6, #ff9501);
+}
+
+.icons_param.youtube:after {
+	background: linear-gradient(0deg, #940b0b, #ff2d07, #f58558);
+}
+
+.icons_param.telegram:after {
+
+	background: linear-gradient(45deg, rgb(125, 184, 242) 0%, rgb(82, 239, 245)100%);
+}
+
+.icons_param.facebook:after {
+	background-color: #0717f9;
+}
+
+.icons_param:hover {
+	transform: translateY(-4px);
+}
+
+.icons_param:hover iconify-icon {
+	color: white;
+	z-index: 1;
+}
+
+.icons_param:hover:after {
+	transform: translate(0);
+}

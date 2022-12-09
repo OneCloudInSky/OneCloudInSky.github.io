@@ -1,0 +1,233 @@
+.div__1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	box-shadow: inset -25em -20em rgb(29, 99, 179);
+	border-bottom: 3px solid rgb(238, 159, 55);
+	padding-bottom: 50px;
+	transition: all .2s;
+}
+
+.content__1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	transition: all 1s;
+	margin: 0px 60px 0px 60px;
+}
+
+.topic__0 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.quote {
+	font-size: 20px;
+	position: relative;
+}
+
+.picture__1 {
+	height: 800px;
+	margin-top: 100px;
+}
+
+.picture__1 img {
+	border-radius: 5px;
+	border-top-left-radius: 30px;
+	transition: all 0.3s;
+}
+
+.picture__1:hover img {
+	transform: rotate(2deg);
+}
+
+.topic__0::before {
+	content: '';
+	position: absolute;
+	background-color: rgb(238, 159, 55);
+	height: 4px;
+	top: -40%;
+	left: 0px;
+	width: 76%;
+	transition: all 0.5s;
+}
+
+.quote::after {
+	content: '';
+	position: absolute;
+	background-color: rgb(238, 159, 55);
+	height: 4px;
+	top: 150%;
+	left: 24%;
+	width: 76%;
+	transition: all 0.5s;
+}
+
+@media (max-width: 1824px) {
+	.div__1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-around;
+		text-align: center;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		box-shadow: inset 0px -15em rgb(29, 99, 179);
+		background-color: white;
+		padding-bottom: 80px;
+	}
+}
+
+@media (max-width: 1246px) {
+
+	.div__1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-around;
+		text-align: center;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		box-shadow: inset 0em -15em rgb(29, 99, 179);
+		background-color: white;
+		padding-bottom: 80px;
+	}
+
+	.picture__1 {
+		height: 800px;
+		margin-top: 100px;
+	}
+
+	.topic__0 {
+		font-size: 25px;
+		margin-bottom: 20px;
+		position: relative;
+	}
+
+	.quote {
+		font-size: 20px;
+		position: relative;
+	}
+
+	.topic__0::before {
+		content: '';
+		position: absolute;
+		background-color: rgb(238, 159, 55);
+		height: 4px;
+		top: -40%;
+		left: 48%;
+		width: 50%;
+		transition: all 0.5s;
+	}
+
+	.quote::after {
+		content: '';
+		position: absolute;
+		background-color: rgb(238, 159, 55);
+		height: 4px;
+		top: 150%;
+		left: 10px;
+		width: 50%;
+		transition: all 0.5s;
+	}
+
+}
+
+
+@media (max-width: 650px) {
+
+	.div__1 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: space-around;
+		text-align: center;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		box-shadow: inset 0em -10em rgb(29, 99, 179);
+		transition: all .2s;
+		max-height: 700px;
+	}
+
+	.picture__1 img {
+		transition: all .2s;
+		height: 400px;
+		width: 300px;
+	}
+
+	.topic__0 {
+		transition: all .2s;
+		font-size: 18px;
+		margin-bottom: 20px;
+		position: relative;
+	}
+
+	.quote {
+		font-size: 15px;
+		transition: all .2s;
+		position: relative;
+	}
+
+	.topic__0::before {
+		content: '';
+		position: absolute;
+		background-color: rgb(238, 159, 55);
+		height: 4px;
+		top: -40%;
+		left: 15%;
+		width: 70%;
+		transition: all 0.5s;
+	}
+
+	.quote::after {
+		content: '';
+		position: absolute;
+		background-color: rgb(238, 159, 55);
+		height: 4px;
+		top: 150%;
+		left: 15%;
+		width: 70%;
+		transition: all 0.5s;
+	}
+
+	@media (max-width: 420px) {
+
+		.div__1 {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			justify-content: space-around;
+			text-align: center;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			box-shadow: inset 0em -15em rgb(29, 99, 179);
+			transition: all .2s;
+			max-height: 600px;
+		}
+
+		.picture__1 img {
+			transition: all .2s;
+			height: 300px;
+			width: 200px;
+		}
+
+		.topic__0 {
+			transition: all .2s;
+			font-size: 14px;
+			margin-bottom: 20px;
+			position: relative;
+		}
+
+		.quote {
+			font-size: 12px;
+			transition: all .2s;
+			position: relative;
+		}
+	}
+}
