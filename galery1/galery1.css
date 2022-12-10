@@ -91,7 +91,7 @@
 	text-align: justify;
 	align-items: center;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	background-color: rgb(29, 99, 179);
 	/* flex: 2; */
 	overflow: hidden;
@@ -127,79 +127,26 @@
 	}
 
 	.hidden__name {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
 		font-size: 40px;
-		color: white;
-		background-color: rgb(29, 99, 179);
-		font-family: Oswald;
-		letter-spacing: 4px;
-		flex: 1;
 	}
 
 	.hidden__wrapper {
-		width: 100%;
-		display: flex;
-		font-family: Oswald;
-		text-align: justify;
-		align-items: center;
-		color: white;
 		font-size: 16px;
-		background-color: rgb(29, 99, 179);
-		/* flex: 2; */
 	}
 }
 
 @media (max-width: 600px) {
 
 	.upper_wrapper {
-		width: 100%;
-		/* flex: 1; */
-		background-color: rgb(29, 99, 179);
-		display: flex;
 		flex-direction: column;
 	}
 
 	.btn {
-		flex: 1;
-		text-align: center;
-		color: white;
-		align-items: center;
 		font-size: 30px;
-		display: flex;
-		justify-content: center;
 	}
 
 	.hidden__name {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		font-size: 60px;
-		color: white;
-		background-color: rgb(29, 99, 179);
-		font-family: Oswald;
-		letter-spacing: 4px;
-		flex: 10;
-	}
-
-
-	.hidden__name {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
 		font-size: 30px;
-		color: white;
-		background-color: rgb(29, 99, 179);
-		font-family: Oswald;
-		letter-spacing: 4px;
-		flex: 1;
 
 	}
 
@@ -232,27 +179,13 @@
 	}
 
 	.hidden__wrapper {
-		width: 100%;
-		display: flex;
-		font-family: Oswald;
-		text-align: justify;
-		align-items: center;
-		color: white;
 		font-size: 13px;
-		background-color: rgb(29, 99, 179);
-		/* flex: 1; */
 	}
 
 	.gallery {
-		display: flex;
 		width: 100%;
 		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		flex-wrap: wrap;
-		font-family: Oswald;
 		flex: 3;
-		justify-content: center;
 	}
 
 	.hidden__des {

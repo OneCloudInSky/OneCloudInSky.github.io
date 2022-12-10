@@ -71,13 +71,6 @@
 
 @media (max-width: 1824px) {
 	.div__1 {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		justify-content: space-around;
-		text-align: center;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		box-shadow: inset 0px -15em rgb(29, 99, 179);
 		background-color: white;
 		padding-bottom: 80px;
@@ -87,13 +80,6 @@
 @media (max-width: 1246px) {
 
 	.div__1 {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		justify-content: space-around;
-		text-align: center;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		box-shadow: inset 0em -15em rgb(29, 99, 179);
 		background-color: white;
 		padding-bottom: 80px;
@@ -143,15 +129,7 @@
 @media (max-width: 650px) {
 
 	.div__1 {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		justify-content: space-around;
-		text-align: center;
-		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		box-shadow: inset 0em -10em rgb(29, 99, 179);
-		transition: all .2s;
 		max-height: 700px;
 	}
 
@@ -162,16 +140,11 @@
 	}
 
 	.topic__0 {
-		transition: all .2s;
 		font-size: 18px;
-		margin-bottom: 20px;
-		position: relative;
 	}
 
 	.quote {
 		font-size: 15px;
-		transition: all .2s;
-		position: relative;
 	}
 
 	.topic__0::before {
@@ -199,15 +172,7 @@
 	@media (max-width: 420px) {
 
 		.div__1 {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: center;
-			justify-content: space-around;
-			text-align: center;
-			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 			box-shadow: inset 0em -15em rgb(29, 99, 179);
-			transition: all .2s;
 			max-height: 600px;
 		}
 
@@ -218,16 +183,11 @@
 		}
 
 		.topic__0 {
-			transition: all .2s;
 			font-size: 14px;
-			margin-bottom: 20px;
-			position: relative;
 		}
 
 		.quote {
 			font-size: 12px;
-			transition: all .2s;
-			position: relative;
 		}
 	}
 }

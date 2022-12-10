@@ -112,10 +112,10 @@
 
 @media (max-width: 1246px) {
 	.topic__2 {
-		text-align: center;
 		font-size: 25px;
 		padding-bottom: 30px;
 	}
+
 
 	.tech__1 {
 		display: flex;
@@ -252,7 +252,7 @@
 		flex: 2;
 	}
 
-	.tech__1 div:nth-child(2) {
+	з з .tech__1 div:nth-child(2) {
 		flex: 13;
 	}
 
@@ -330,25 +330,16 @@
 	}
 
 	.tech__2 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		font-size: 15px;
 		min-height: 150px;
 	}
 
 	.tech__3 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		font-size: 15px;
 		min-height: 230px;
 	}
 
 	.tech__4 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		font-size: 15px;
 		min-height: 200px;
 	}
